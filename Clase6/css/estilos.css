@@ -1,0 +1,57 @@
+
+header{
+    background-image:
+        linear-gradient(
+         rgba(0, 0, 0, 0.3),
+         rgba(0, 0, 0, 0.3)
+        ),
+    url('../img/lemon-pie.png');
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+   
+}
+
+h1{
+    font-size: 45px ;
+    font-weight: 900;
+}
+
+nav a{
+    color: black ;
+    font-family: serif;
+    text-decoration: none;
+}
+
+.navegacion{
+    margin-bottom: 50px;
+    padding-left: 3px;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: rgb(75, 72, 72);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.orange{
+    color: orangered ;
+    text-decoration: underline;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    line-height: 10px;
+}
+
+footer{
+    line-height: 70px ;
+    bottom: 0px;
+    margin-bottom: 0%;
+}
+

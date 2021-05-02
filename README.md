@@ -19,6 +19,8 @@ https://katherinepaez.github.io/Front_End_I/Clase7/
 Proyecto 5: Proyecto Tienda Card Super Heroes
 https://katherinepaez.github.io/Front_End_I/Clase9/
 
+Proyecto Cards Super Heroes Finalizado
+https://katherinepaez.github.io/Front_End_I/Cards_Final/
 
 LENGUAJES:
 

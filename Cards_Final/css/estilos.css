@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0;
+}
+
+.descuentos{
+    background-color:  #1CD1B0;
+    height: 25px;
+    font-family: Roboto;
+    font-size: 15px;
+    padding-left: 28px;
+    font-weight: 500;
+    width:100%;
+    line-height: 25px;
+    
+}
+
+body div.descuentos p{
+    margin: 0 0;
+}
+
+header img{
+    position: relative;
+    top: 3.94px;
+    width: 99px;
+    left: 10px;
+}
+
+header{
+    background: #00669F;
+    box-shadow: 0px 3px 2px rgba(0,0,0, 0.25);
+    height: 80px;
+    width:100%;
+    margin: 0 auto;
+}
+
+main{
+    margin-top:200px;
+    display: flex;
+    justify-content: center;
+}
+
+.super {
+    position:relative;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    left: 75px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.card-fondo{
+    padding: 100px;
+    background-size: 350px;
+    background-position: 70% 50%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    position:relative;
+    z-index:1;
+}
+
+.card-texto{
+    position: relative;
+    top:-80px;
+    background-color: #F3F3F3;
+    padding: 20px;
+    box-shadow: 0px 3px 2px rgba(0,0,0, 0.25);
+    font-size: 14px;
+}
+
+.batman{
+    background-image: url("../img/bg-batman.jpg");
+}
+
+.harley-quinn{
+    background-image: url("../img/bg-harley.svg")
+}
+.superman{
+    background-image: url("../img/bg-superman.jpg");
+    background-size: 350px;
+    background-position: 0% 0%;
+}
+
+.card{
+    width: 300px; 
+    display: inline-block;
+    margin: 10px;
+    background-position: 50% 50%;
+}
+
+h2{
+    text-align: center;
+    line-height: 60px;
+}
+.card a {
+    display:inline-block;
+    margin-left: 75px; 
+    margin-top: 20px;
+    background-color: #00669F;
+    border-radius: 3%;
+    color: white;
+    padding: 15px 40px;
+    font-size:12px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.fas{
+    font-size: 25px;
+    color:#be1616;
+    position:absolute;
+    top:12px;
+    left:20px;
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    bottom: 21px;
+    font-size: 22px;
+    left:30px;
+    height:35px;
+    line-height:35.16px;
+}
+
+footer{
+    background-color: #00669F ;
+    height: 60px;
+    color:white;
+    text-align:center;
+    font-size: 15px;
+    line-height: 60px;
+    margin-top: 205px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.barra{
+    background-color: #001D2D;
+    box-shadow: 0px 3px 2px rgba(0,0,0, 0.25);
+    margin: 0;
+    padding-top: 0;
+
+}
+li{
+    display: inline-block;
+    background-color: #001D2D;
+    height: 40px;
+    
+}
+nav a, ul.navegacion{
+    background-color: #001D2D;  
+    color: white;
+    line-height: 40px;
+    font-size:16px;
+    font-weight: lighter;
+    text-decoration: none;
+    margin: 0 8px;
+    height: 40px;
+    text-align: right;
+}
+
+.fas.fa-plus-circle{
+    position: fixed;
+    font-size: 65px;
+    color:#00669F;
+    left: 1250px;
+    top: 310px;
+}
+
+.fas.fa-plus-circle:hover{
+    color: #001D2D;
+    transition: 0.5s;
+}
